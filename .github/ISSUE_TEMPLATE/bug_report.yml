@@ -1,0 +1,36 @@
+name: Bug Report
+description: Report a bug or issue
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Briefly describe the problem you are having.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+        4. See error...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: Tell us what should happen.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: Tell us what happens instead.
+    validations:
+      required: false
